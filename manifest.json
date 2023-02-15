@@ -1,13 +1,15 @@
 {
-    "name": "Less Ads for 6park",
-    "version": "0.0.2",
-    "description": "Reduce Ads on 6park.com on the news pages",
+    "name": "Less Ads",
+    "version": "0.0.3",
+    "description": "Reduce Ads for many sites",
     "manifest_version": 3,
     "author": "Simin Cao",
     "content_scripts": [{
-        "css": ["styles.css"],
+        "css": ["6park.styles.css",
+                "willhaben.styles.css"],
         "matches": ["https://*.6park.com/*",
-                    "https://*.6parknews.com/*"]
+                    "https://*.6parknews.com/*",
+                    "https://*.willhaben.at/*"]
     }],
     "icons": {
         "16": "icon16.png",
