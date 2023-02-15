@@ -1,0 +1,13 @@
+.backToTop,
+center,
+.OUTBRAIN,
+.ad
+{
+    display: none !important;
+}
+body{
+    background-color: seagreen;
+}
+img{
+    width:100%
+}
