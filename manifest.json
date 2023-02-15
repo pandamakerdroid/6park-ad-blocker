@@ -5,8 +5,8 @@
     "manifest_version": 3,
     "author": "Simin Cao",
     "content_scripts": [{
-        "css": ["6park.styles.css",
-                "willhaben.styles.css"],
+        "css": ["6park.css",
+                "willhaben.css"],
         "matches": ["https://*.6park.com/*",
                     "https://*.6parknews.com/*",
                     "https://*.willhaben.at/*"]

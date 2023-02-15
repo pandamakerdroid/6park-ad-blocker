@@ -1,0 +1,6 @@
+div[id^=apn]{
+  display: none;
+}
+div[class^=Leaderboard]{
+  display: none;
+}
