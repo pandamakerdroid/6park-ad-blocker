@@ -1,6 +1,6 @@
 {
     "name": "Less Ads for 6park",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Reduce Ads on 6park.com on the news pages",
     "manifest_version": 3,
     "author": "Simin Cao",
