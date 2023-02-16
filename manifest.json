@@ -5,11 +5,13 @@
     "manifest_version": 3,
     "author": "Simin Cao",
     "content_scripts": [{
-        "css": ["6park.css",
-                "willhaben.css"],
+        "css": ["6park.css"],
         "matches": ["https://*.6park.com/*",
-                    "https://*.6parknews.com/*",
-                    "https://*.willhaben.at/*"]
+                    "https://*.6parknews.com/*"]
+    },
+    {
+        "css": ["willhaben.css"],
+        "matches": ["https://*.willhaben.at/*"]
     }],
     "icons": {
         "16": "icon16.png",
