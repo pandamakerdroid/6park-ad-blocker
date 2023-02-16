@@ -1,10 +1,14 @@
 {
     "name": "Less Ads",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "Reduce Ads for many sites",
     "manifest_version": 3,
     "author": "Simin Cao",
     "content_scripts": [{
+        "css": ["style.css"],
+        "matches": ["https://*.*.*/*"]
+    },
+    {
         "css": ["6park.css"],
         "matches": ["https://*.6park.com/*",
                     "https://*.6parknews.com/*"]
@@ -12,6 +16,10 @@
     {
         "css": ["willhaben.css"],
         "matches": ["https://*.willhaben.at/*"]
+    },
+    {
+        "css":["oe24.css"],
+        "matches":["https://*.oe24.at/*"]
     }],
     "icons": {
         "16": "icon16.png",

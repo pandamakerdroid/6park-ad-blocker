@@ -1,0 +1,8 @@
+div[id^=google_ads_iframe],div[id^=ad_]{
+  display: none;
+}
+ad-container,
+ad-slot,
+div[class^=ad-container]{
+  display:none
+}
