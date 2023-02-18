@@ -1,15 +1,16 @@
 div[id^=google_ads_iframe],
 div[id^=ad_],
 div[id^=service-middle],
-div[class^="adzone"],
-div[class^="adzone_skyscraper"]{
-  display: none;
-}
+div[class^=adzone],
+div[class^=adzone_skyscraper],
 ad-container,
 ad-slot,
 div[class^=ad-container],
 div[class^=ad-ad-container-used],
 div[class^=tile-ad],
-div[class^=ad-active]{
-  display:none
+div[class^=ad-active],
+div[class^=native-ad],
+div[class^=js-native-ad],
+div[class^=site-sitebar]{
+  display:none;
 }
