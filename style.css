@@ -1,8 +1,15 @@
-div[id^=google_ads_iframe],div[id^=ad_]{
+div[id^=google_ads_iframe],
+div[id^=ad_],
+div[id^=service-middle],
+div[class^="adzone"],
+div[class^="adzone_skyscraper"]{
   display: none;
 }
 ad-container,
 ad-slot,
-div[class^=ad-container]{
+div[class^=ad-container],
+div[class^=ad-ad-container-used],
+div[class^=tile-ad],
+div[class^=ad-active]{
   display:none
 }

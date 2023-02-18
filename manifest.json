@@ -1,12 +1,12 @@
 {
     "name": "Less Ads",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "Reduce Ads for many sites",
     "manifest_version": 3,
     "author": "Simin Cao",
     "content_scripts": [{
         "css": ["style.css"],
-        "matches": ["https://*.*.*/*"]
+        "matches": ["https://*/*"]
     },
     {
         "css": ["6park.css"],
